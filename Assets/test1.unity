@@ -124,6 +124,510 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &525813068
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1043247444565720069, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6460fab2da341ef439d8a2dd6e214f90, type: 2}
+    - target: {fileID: 1043247445648235178, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: m_Name
+      value: Player (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235188, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235188, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235188, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.2357762
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235188, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.029799178
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235188, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235188, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235188, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235188, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235188, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235188, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235188, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 2130159001}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[0].m_Id
+      value: f1fe8f26-b11d-485d-a610-9e0e9499c2b3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[1].m_Id
+      value: f5cff1bd-e316-408e-bfda-13dd26df1476
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[2].m_Id
+      value: 5a60c183-8473-4c64-aa43-51edd5c517de
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[3].m_Id
+      value: 2c3ff225-dd19-4c04-af3f-5aff91f4fb3a
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[4].m_Id
+      value: 30ddaea5-7620-4120-84a8-f6e176eac99e
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[5].m_Id
+      value: b45d086f-5521-4114-9ee8-df38aeee4869
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[6].m_Id
+      value: 2d15acbb-0dc9-491e-bc8b-417395a3411a
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[7].m_Id
+      value: f1fe8f26-b11d-485d-a610-9e0e9499c2b3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[8].m_Id
+      value: f5cff1bd-e316-408e-bfda-13dd26df1476
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[9].m_Id
+      value: 5a60c183-8473-4c64-aa43-51edd5c517de
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[10].m_Id
+      value: 2c3ff225-dd19-4c04-af3f-5aff91f4fb3a
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[11].m_Id
+      value: 30ddaea5-7620-4120-84a8-f6e176eac99e
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[12].m_Id
+      value: 5a60c183-8473-4c64-aa43-51edd5c517de
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[13].m_Id
+      value: 2c3ff225-dd19-4c04-af3f-5aff91f4fb3a
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[14].m_Id
+      value: 30ddaea5-7620-4120-84a8-f6e176eac99e
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[15].m_Id
+      value: f5cff1bd-e316-408e-bfda-13dd26df1476
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[16].m_Id
+      value: 5a60c183-8473-4c64-aa43-51edd5c517de
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[17].m_Id
+      value: 2c3ff225-dd19-4c04-af3f-5aff91f4fb3a
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[18].m_Id
+      value: 30ddaea5-7620-4120-84a8-f6e176eac99e
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[0].m_Name
+      value: 2D Vector
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[0].m_Path
+      value: 2DVector
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[1].m_Name
+      value: up
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[1].m_Path
+      value: <Keyboard>/i
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[2].m_Name
+      value: down
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[2].m_Path
+      value: <Keyboard>/k
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[3].m_Name
+      value: left
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[3].m_Path
+      value: <Keyboard>/j
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[4].m_Name
+      value: right
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[4].m_Path
+      value: <Keyboard>/l
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[5].m_Name
+      value: forward
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[6].m_Name
+      value: backward
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[7].m_Name
+      value: 2D Vector
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[7].m_Path
+      value: 2DVector
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[8].m_Name
+      value: up
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[9].m_Name
+      value: down
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[0].m_Flags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[10].m_Name
+      value: left
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[10].m_Path
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[11].m_Name
+      value: right
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[12].m_Name
+      value: down
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[13].m_Name
+      value: left
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[14].m_Name
+      value: right
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[14].m_Path
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[15].m_Name
+      value: up
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[16].m_Name
+      value: down
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[17].m_Name
+      value: left
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[18].m_Name
+      value: right
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[1].m_Flags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[2].m_Flags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[3].m_Flags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[4].m_Flags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[5].m_Flags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[6].m_Flags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[7].m_Flags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[8].m_Flags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[9].m_Flags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[0].m_Action
+      value: Player Controls
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[10].m_Flags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[11].m_Flags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[12].m_Flags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[13].m_Flags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[14].m_Flags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[15].m_Flags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[16].m_Flags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[17].m_Flags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[18].m_Flags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[1].m_Action
+      value: Player Controls
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[2].m_Action
+      value: Player Controls
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[3].m_Action
+      value: Player Controls
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[4].m_Action
+      value: Player Controls
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[5].m_Action
+      value: Player Controls
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[6].m_Action
+      value: Player Controls
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[7].m_Action
+      value: Player Controls
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[8].m_Action
+      value: Player Controls
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[9].m_Action
+      value: Player Controls
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[10].m_Action
+      value: Player Controls
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[11].m_Action
+      value: Player Controls
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[12].m_Action
+      value: Player Controls
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[13].m_Action
+      value: Player Controls
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[14].m_Action
+      value: Player Controls
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[15].m_Action
+      value: Player Controls
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[16].m_Action
+      value: Player Controls
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[17].m_Action
+      value: Player Controls
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043247445648235189, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+        type: 3}
+      propertyPath: playerControls.m_SingletonActionBindings.Array.data[18].m_Action
+      value: Player Controls
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 262284bf6010e2c47a7d84f4f0eb9f52, type: 3}
 --- !u!1 &964274383
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,6 +717,7 @@ Transform:
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -305,6 +810,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -402,10 +908,33 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 10}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2130159000 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1043247445648235178, guid: 262284bf6010e2c47a7d84f4f0eb9f52,
+    type: 3}
+  m_PrefabInstance: {fileID: 525813068}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2130159001
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130159000}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1043247445956054725
 PrefabInstance:
   m_ObjectHideFlags: 0
